@@ -1,2 +1,2 @@
 # scitemplate
-Simple template for Python projects.
+Simple template for scientific Python projects.
