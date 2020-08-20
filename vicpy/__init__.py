@@ -1,3 +1,3 @@
-from . import scimodule
+from . import mymodule
 
-__all__ = ('scimodule',)
+__all__ = ('mymodule',)
