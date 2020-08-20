@@ -1,7 +1,6 @@
-# scitemplate
-Simple template for scientific Python projects.
+Basic template for Python projects.
 
-## Conda shell snippets
+## Anaconda
 
 - To export a conda environment:
 
@@ -16,18 +15,31 @@ Simple template for scientific Python projects.
 		$ conda env create	# if you have a environment.yml in the directory
 		$ conda env create --file <env_name>.yml
 
-- To ensure you are installing stuff in the right conda environment:
+- To ensure you are running pip/python in the right conda environment:
 
 		$ which pip	# or
 		$ which python
 		$ # should return something like "/.../miniconda3/envs/scitemplate/bin/pip"
 
-## Setup shell snippets
+## Package setup
 
 - To install the package in development mode:
 
-		$ pip install -e <project directory>
+		$ pip install -e .
 
 - To install the package in user mode:
 
-		$ pip install <project directory>
+		$ pip install .
+
+    The . here refers to the current working directory, which is assumed to be the directory where the setup.py can be found.
+
+## Jupyter
+
+- Install: ```pip install notebook```
+- Install nbextensions: ```pip install jupyter_contrib_nbextensions```
+- Magic commands: ```!```
+- Shell commands: ```%``` 
+- List all available magic commands: ```%lsmagic```
+- To load python code snippets inside the notebook: ```!load snippets/snippet.py```
+- Interactive mode: blue ("vim" alike). Typing mode: green.
+- Navigate using j/k (up/down), x (delete cell), a (insert cell above), b (insert cell below) etc
