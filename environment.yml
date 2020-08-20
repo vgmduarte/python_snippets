@@ -1,4 +1,4 @@
-name: scitemplate
+name: vicpy
 channels:
   - defaults
 dependencies:
@@ -22,6 +22,15 @@ dependencies:
   - xz=5.2.5=h7b6447c_0
   - zlib=1.2.11=h7b6447c_3
   - pip:
+    - attrs==20.1.0
+    - iniconfig==1.0.1
+    - more-itertools==8.4.0
     - numpy==1.19.1
-    - scipy==1.5.2
+    - packaging==20.4
+    - pluggy==0.13.1
+    - py==1.9.0
+    - pyparsing==2.4.7
+    - pytest==6.0.1
+    - six==1.15.0
+    - toml==0.10.1
 
