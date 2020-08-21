@@ -1,4 +1,4 @@
-Snippets for Python projects using Anaconda and Jupyter Notebook.
+Snippets for Python projects using Anaconda and Jupyter Notebook. All files and folders are merely illustrative
 
 ## Anaconda
 
