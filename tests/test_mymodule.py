@@ -6,5 +6,5 @@ from mypackage.mymodule import myfunc
 
 def test_myfunc():
     npt.assert_array_equal(myfunc(3), np.array([]))
-    npt.assert_array_eq
+    npt.assert_array_equal(myfunc(3, 4,5,6), np.array([4,5,6]))
     
