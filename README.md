@@ -19,7 +19,7 @@ Snippets for Python projects using Anaconda and Jupyter Notebook. All files and 
 
 		$ which pip	# or
 		$ which python
-		$ # should return something like "/.../miniconda3/envs/scitemplate/bin/pip"
+		$ # should return something like "/.../miniconda3/envs/python_snippets/bin/pip"
 
 ## Package setup
 
@@ -37,6 +37,8 @@ Snippets for Python projects using Anaconda and Jupyter Notebook. All files and 
 
 - Install: ```pip install notebook```
 - Install nbextensions: ```pip install jupyter_contrib_nbextensions```
+- Run: ```jupyter notebook``` (in correct environment)
+- Select the kernel Python3 (Not the one with the name of the env. Yeah, this can be rather confusing)
 - Magic commands: ```!```
 - Shell commands: ```%``` 
 - List all available magic commands: ```%lsmagic```
