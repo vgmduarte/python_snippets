@@ -1,4 +1,4 @@
-Basic template for Python projects.
+Snippets for Python projects using Anaconda and Jupyter Notebook.
 
 ## Anaconda
 
