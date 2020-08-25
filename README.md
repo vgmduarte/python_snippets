@@ -36,7 +36,14 @@ Snippets for Python projects using Anaconda and Jupyter Notebook. All files and 
 ## Jupyter
 
 - Install: ```pip install notebook```
-- Install nbextensions: ```pip install jupyter_contrib_nbextensions```
+- Install nbextensions: 
+
+    ```bash  
+    pip install jupyter_contrib_nbextensions
+    jupyter contrib nbextension install --user
+    jupyter nbextension enable varInspector/main
+    ```
+
 - Run: ```jupyter notebook``` (in correct environment)
 - Select the kernel Python3 (Not the one with the name of the env. Yeah, this can be rather confusing)
 - Magic commands: ```!```
