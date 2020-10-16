@@ -52,3 +52,7 @@ Snippets for Python projects using Anaconda and Jupyter Notebook. All files and 
 - To load python code snippets inside the notebook: ```!load snippets/snippet.py```
 - Interactive mode: blue ("vim" alike). Typing mode: green.
 - Navigate using j/k (up/down), x (delete cell), a (insert cell above), b (insert cell below) etc
+
+## Jupytext
+
+- Pair script/ notebook: ```jupytext --set-formats ipynb,py:percent <file>```
